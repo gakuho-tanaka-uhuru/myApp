@@ -6,7 +6,7 @@ app.get( '/hello' , function(req,res){
     // 変数sampleに"こんにちは"という文字列を代入する
     let sample = "こんにちは"
     // 変数sampleに代入された値をブラウザに表示する
-    res.send(`<p>TestText${sample}</p>`);
+    res.send(`<p>TestTexs${sample}</p>`);
  });
  
 app.listen(3000, function(){
